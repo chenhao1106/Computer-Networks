@@ -6,7 +6,7 @@ import sys # In order to terminate the program
 serverSocket = socket(AF_INET, SOCK_STREAM)
 #Prepare a sever socket
 
-HOST, PORT = "140.112.250.86", 8080
+HOST, PORT = "YOUR IP ADDRESS", 8080
 
 serverSocket.bind( ( HOST, PORT ) )
 serverSocket.listen( 0 )
